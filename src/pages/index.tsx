@@ -18,32 +18,40 @@ import SwiperCore, {
 SwiperCore.use([Pagination, Autoplay]);
 
 export default function Home() {
-  
+
   function handleButtonLink(link) {
-    window.location.href= link
+    window.location.href = link
   }
 
   return (
     <div className={styles.container} >
       <Head>
-        <title>Links | Niu Delicias</title>
+        <title>Links | Pri Limas </title>
       </Head>
 
-        <button
-          type="button"
-          className={styles.button}
-          onClick={() => handleButtonLink('https://api.whatsapp.com/send?phone=5548996502797&text=Oii%2C%20tenho%20interesse%20em%20seus%20produtos!')}
-        >
-          Fale com um de nossos atendentes
-        </button>
+      <button
+        type="button"
+        className={styles.button}
+        onClick={() => handleButtonLink('https://api.whatsapp.com/send?phone=5548988167572&text=Ol%C3%A1%2C%20gostaria%20de%20fazer%20um%20or%C3%A7amento!%20')}
+      >
+        Fale com um de nossos atendentes
+      </button>
 
-        <button
-          type="button"
-          className={styles.button}
-          onClick={() => handleButtonLink('https://www.instagram.com/niudelicias/')}
-        >
-          Siga nosso perfil no instagram
-        </button>
+      <button
+        type="button"
+        className={styles.button}
+        onClick={() => handleButtonLink('https://www.instagram.com/pricila.limas/')}
+      >
+        Siga nosso perfil no instagram
+      </button>
+
+      <button
+        type="button"
+        className={styles.button}
+        onClick={() => handleButtonLink('https://www.facebook.com/profile.php?id=100010366846305')}
+      >
+        Siga nossa página no facebook
+      </button>
 
       <div className={styles.separator} ><FaAngleDown /></div>
 
@@ -55,7 +63,7 @@ export default function Home() {
 
       <footer>
         <h2>Obrigado!</h2>
-        <span>@niudelicias</span>
+        <span>@pricila.limas</span>
       </footer>
     </div>
   )

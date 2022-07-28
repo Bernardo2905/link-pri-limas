@@ -8,7 +8,7 @@
     display: flex;
     justify-content: center;
 
-    > svg {
+    >svg {
       font-size: 1.5rem;
       color: var(--gray);
       opacity: 0.4;
@@ -96,7 +96,7 @@
   padding: 0 1.5rem;
   color: var(--white);
 
-  background: linear-gradient(90deg, #6e9b91 -6.91%, #4ca793 129.67%);
+  background: linear-gradient(90deg, #F69DAD -6.91%, #d0808f 129.67%);
   transition: filter 0.2s;
   font-size: 1.05rem;
   font-weight: 500;
@@ -105,7 +105,7 @@
     justify-content: center;
   }
 
-  & + button {
+  &+button {
     margin-top: 1.5rem;
   }
 
